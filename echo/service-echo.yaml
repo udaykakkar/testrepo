@@ -6,7 +6,7 @@ metadata: # kpt-merge: example/echo
   labels:
     app: echo
   annotations:
-    internal.kpt.dev/upstream-identifier: "|Service|example|echo"
+    internal.kpt.dev/upstream-identifier: '|Service|example|echo'
 spec:
   ports:
   - port: 80
